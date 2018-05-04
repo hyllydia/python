@@ -1,2 +1,2 @@
-# python 教程
+# Python
 
