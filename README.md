@@ -1,3 +1,3 @@
 # python
-python learn
+python 教程
 
