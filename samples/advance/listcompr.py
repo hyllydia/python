@@ -25,5 +25,5 @@ isinstance() 函数来判断一个对象是否是一个已知的类型，类似 
         isinstance() 会认为子类是一种父类类型，考虑继承关系。
 
     如果要判断两个类型是否相同推荐使用 isinstance()。
-    isinstance(object, classinfo)
-    '''
+isinstance(object, classinfo)
+'''
