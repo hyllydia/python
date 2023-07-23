@@ -5,7 +5,7 @@
     <title>Login</title>
 </head>
 <body>
-<form method="post">
+<form action='/login' method="post">
     <div>
         <h2>Username:</h2>
     <input type="text" name="user" >
@@ -15,7 +15,10 @@
     <input type="text" name="pwd">
     </div>
     <input type="submit" value="Login">
-<div style="color:red;background-color:yellow">{{error}}</div>
 </form>
+<form action="/register" method="get">
+    <input type="submit" value="Register">
+    </form>
+<div style="color:red;background-color:yellow">{{error}}{{msg}}</div>
 </body>
 </html>
